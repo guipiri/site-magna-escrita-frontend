@@ -1,0 +1,42 @@
+.footer {
+  background-color: rgb(224, 201, 245);
+  /* position: relative; */
+  /* bottom: 0; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  /* padding: 15px 0; */
+  /* min-height: 1000px; */
+}
+
+.footer img {
+  height: 20vw;
+  max-height: 160px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.footer svg {
+  font-size: 1.5em;
+  cursor: pointer;
+  color: #702281;
+  transition: 0.3s;
+}
+
+.footer svg:hover {
+  color: #ffffff;
+}
+
+a {
+  padding: 1em;
+  text-decoration: none;
+  color: #702281;
+}
+
+.descri {
+  width: 300px;
+  margin: 0.5em 0.5em 0.5em 8em;
+}
