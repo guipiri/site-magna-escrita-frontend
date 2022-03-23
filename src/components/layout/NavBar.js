@@ -25,7 +25,12 @@ function NavBar() {
         <Link to="/sobreoprojeto">Sobre o projeto</Link>
         <Link to="/contato">Contato</Link>
       </div>
-      <Button handleClick={() => setActive(false)}>Inscreva sua escola</Button>
+      <Button
+        to="/"
+        handleClick={() => setActive(false)}
+        text="Inscreva sua escola"
+      />
+
       <div className={styles.mobile_menu} onClick={() => setActive(!active)}>
         <div></div>
         <div></div>

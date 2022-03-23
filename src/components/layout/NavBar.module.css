@@ -13,13 +13,11 @@
 
 .nav_bar a {
   text-decoration: none;
-  color: #702281;
-  transition: 0.3s;
+  transition: 0.2s;
   padding: 0 1em;
 }
 
-.nav_bar a:hover,
-.nav_bar button:hover {
+.nav_bar a:hover {
   color: white;
 }
 
@@ -29,16 +27,6 @@
 .links {
   display: flex;
   align-items: center;
-}
-
-button {
-  background-color: #ffc95c;
-  border-radius: 5px;
-  font-size: 1.1em;
-  padding: 0.5em;
-  color: #702281;
-  border: none;
-  cursor: pointer;
 }
 
 .mobile_menu {

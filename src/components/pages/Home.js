@@ -29,15 +29,32 @@ function Home() {
       </div>
       <h1>O projeto Magníficos Autores transforma seus alunos!</h1>
       <div className={styles.carousel}>{photos.map((photo) => photo)}</div>
-      <h2>Por que o projeto é interessante?</h2>
-      <SquareText />
+      <h1>Por que o projeto é interessante?</h1>
+      <div className={styles.square_text}>
+        <SquareText
+          title="AQUI VAI UM TÍTULO BONITINHO"
+          text="Uma ferramenta atual e inovadora, que amplia as possibilidades de ensino-aprendizagem e que engaja alunos e a família com a comunidade escolar."
+          photo={carousel1}
+        />
+        <SquareText
+          title="AQUI VAI UM TÍTULO BONITINHO"
+          text="Uma ferramenta atual e inovadora, que amplia as possibilidades de ensino-aprendizagem e que engaja alunos e a família com a comunidade escolar."
+          photo={carousel1}
+        />
+        <SquareText
+          title="AQUI VAI UM TÍTULO BONITINHO"
+          text="Uma ferramenta atual e inovadora, que amplia as possibilidades de ensino-aprendizagem e que engaja alunos e a família com a comunidade escolar."
+          photo={carousel1}
+        />
+        <SquareText
+          title="AQUI VAI UM TÍTULO BONITINHO"
+          text="Uma ferramenta atual e inovadora, que amplia as possibilidades de ensino-aprendizagem e que engaja alunos e a família com a comunidade escolar."
+          photo={carousel1}
+        />
+      </div>
       <p className={styles.buttons}>
-        <Button>
-          <Link to="sobreoprojeto">Sobre o projeto</Link>
-        </Button>
-        <Button>
-          <Link to="#">Inscreva sua escola</Link>
-        </Button>
+        <Button to="/sobreoprojeto" text="Sobre o projeto" />
+        <Button to="/sobreoprojeto" text="Inscreva sua escola" />
       </p>
     </>
   );

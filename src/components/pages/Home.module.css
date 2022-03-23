@@ -5,7 +5,6 @@
 
 .home img {
   width: 100%;
-  /* max-width: 1000px; */
   border-radius: 0 250px 250px 0;
 }
 .carousel {
@@ -28,4 +27,11 @@ h2 {
 
 .buttons button {
   margin: 1em;
+}
+
+.square_text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
