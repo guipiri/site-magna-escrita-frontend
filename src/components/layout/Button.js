@@ -4,9 +4,9 @@ import styles from "./Button.module.css";
 
 function Button({ handleClick, to, text }) {
   return (
-    <button className={styles.button} onClick={handleClick}>
-      <Link to={to}>{text}</Link>
-    </button>
+    <Link className={styles.button} to={to}>
+      {text}
+    </Link>
   );
 }
 

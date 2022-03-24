@@ -26,7 +26,7 @@ function NavBar() {
         <Link to="/contato">Contato</Link>
       </div>
       <Button
-        to="/"
+        to="/contato"
         handleClick={() => setActive(false)}
         text="Inscreva sua escola"
       />

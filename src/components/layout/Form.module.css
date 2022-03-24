@@ -1,0 +1,39 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 5px;
+  height: 300px;
+  width: 300px;
+  margin: 3em;
+}
+
+.input {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.radio label {
+  padding: 0.2em;
+  margin: 0.2em;
+}
+
+.button {
+  margin-top: 2em;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 30px;
+  transition: 0.2s;
+  background-color: #ffc95c;
+  font-weight: bold;
+}
+
+.button:hover {
+  background-color: blueviolet;
+  color: white;
+}

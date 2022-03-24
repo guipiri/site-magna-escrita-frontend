@@ -3,12 +3,13 @@
   border-radius: 5px;
   font-size: 1.1em;
   padding: 0.5em;
-  color: #702281;
   border: none;
   cursor: pointer;
+  margin: 1em 0.5em;
+  transition: 0.2s;
 }
 
-.button :hover {
+.button:hover {
   color: white;
-  transition: 0.2s;
+  background-color: blueviolet;
 }

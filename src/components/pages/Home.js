@@ -10,6 +10,7 @@ import carousel6 from "../../img/carousel6.jpg";
 import SquarePhoto from "../layout/SquarePhoto";
 import SquareText from "../layout/SquareText";
 import Button from "../layout/Button";
+import GoToTop from "../gototop/GoToTop";
 
 function Home() {
   const photos = [
@@ -48,8 +49,9 @@ function Home() {
       </div>
       <p className={styles.buttons}>
         <Button to="/sobreoprojeto" text="Sobre o projeto" />
-        <Button to="/sobreoprojeto" text="Inscreva sua escola" />
+        <Button to="/contato" text="Inscreva sua escola" />
       </p>
+      <GoToTop />
     </>
   );
 }

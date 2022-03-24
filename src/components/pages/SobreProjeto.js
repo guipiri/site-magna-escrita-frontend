@@ -6,6 +6,7 @@ import carousel3 from "../../img/carousel3.jpg";
 import SquareText from "../layout/SquareText";
 import styles from "./SobreProjeto.module.css";
 import Button from "../layout/Button";
+import GoToTop from "../gototop/GoToTop";
 
 function SobreProjeto() {
   return (
@@ -60,8 +61,9 @@ function SobreProjeto() {
       </SquareText>
       <p className={styles.buttons}>
         <Button to="/sobreoprojeto" text="Sobre o projeto" />
-        <Button to="/sobreoprojeto" text="Inscreva sua escola" />
+        <Button to="/contato" text="Inscreva sua escola" />
       </p>
+      <GoToTop />
     </div>
   );
 }
