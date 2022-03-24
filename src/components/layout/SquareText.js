@@ -1,15 +1,13 @@
 import React from "react";
 import styles from "./SquareText.module.css";
 
-function SquareText({ title, text, photo }) {
+function SquareText({ title, children, photo }) {
   return (
     <div className={styles.square_photo}>
-      <h3>{title}</h3>
+      <h1>{title}</h1>
       <div className={styles.square}>
         <div className={styles.square2}>
-          <div className={styles.text}>
-            <p>{text}</p>
-          </div>
+          <p>{children}</p>
           <img src={photo} alt="imagens da noite de autógrafos" />
         </div>
       </div>

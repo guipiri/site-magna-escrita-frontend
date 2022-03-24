@@ -9,7 +9,6 @@ import carousel5 from "../../img/carousel5.jpg";
 import carousel6 from "../../img/carousel6.jpg";
 import SquarePhoto from "../layout/SquarePhoto";
 import SquareText from "../layout/SquareText";
-import { Link } from "react-router-dom";
 import Button from "../layout/Button";
 
 function Home() {
@@ -29,28 +28,23 @@ function Home() {
       </div>
       <h1>O projeto Magníficos Autores transforma seus alunos!</h1>
       <div className={styles.carousel}>{photos.map((photo) => photo)}</div>
-      <h1>Por que o projeto é interessante?</h1>
+      <h1>Por que aplicar o projeto Magna Escrita na sua escola?</h1>
       <div className={styles.square_text}>
-        <SquareText
-          title="AQUI VAI UM TÍTULO BONITINHO"
-          text="Uma ferramenta atual e inovadora, que amplia as possibilidades de ensino-aprendizagem e que engaja alunos e a família com a comunidade escolar."
-          photo={carousel1}
-        />
-        <SquareText
-          title="AQUI VAI UM TÍTULO BONITINHO"
-          text="Uma ferramenta atual e inovadora, que amplia as possibilidades de ensino-aprendizagem e que engaja alunos e a família com a comunidade escolar."
-          photo={carousel1}
-        />
-        <SquareText
-          title="AQUI VAI UM TÍTULO BONITINHO"
-          text="Uma ferramenta atual e inovadora, que amplia as possibilidades de ensino-aprendizagem e que engaja alunos e a família com a comunidade escolar."
-          photo={carousel1}
-        />
-        <SquareText
-          title="AQUI VAI UM TÍTULO BONITINHO"
-          text="Uma ferramenta atual e inovadora, que amplia as possibilidades de ensino-aprendizagem e que engaja alunos e a família com a comunidade escolar."
-          photo={carousel1}
-        />
+        <SquareText title="PARA OS ALUNOS..." photo={carousel1}>
+          Desperta o interesse pela produção oral, escrita e{" "}
+          <mark>ARTíSTICA</mark>.
+          <br />
+          <br />
+          Incentiva o hábito da <mark>LEITURA</mark>.
+          <br />
+          <br />
+          Desenvolve autonomia, aprendizagem <mark>CRIATIVA</mark> e
+          responsabilidade social.
+          <br />
+          <br />
+          <mark>DESAFIA</mark> o aluno a explicar suas preconcepções.
+        </SquareText>
+        <SquareText title="AQUI VAI UM TÍTULO BONITINHO" photo={carousel1} />
       </div>
       <p className={styles.buttons}>
         <Button to="/sobreoprojeto" text="Sobre o projeto" />
