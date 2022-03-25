@@ -3,11 +3,9 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  border: 5px solid;
-  border-radius: 5px;
   height: 300px;
   width: 300px;
-  margin: 3em;
+  margin: 0em 1em 1em 1em;
 }
 
 .input {
@@ -36,4 +34,10 @@
 .button:hover {
   background-color: blueviolet;
   color: white;
+}
+
+input {
+  border: 1px solid;
+  height: 25px;
+  border-radius: 5px;
 }
