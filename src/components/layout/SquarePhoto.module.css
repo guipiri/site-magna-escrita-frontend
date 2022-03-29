@@ -1,7 +1,7 @@
 .square {
   background-color: #fe9b00;
   width: 300px;
-  height: 300px;
+  height: 100%;
   transform: rotate(5deg);
   border-radius: 5px;
   margin: 1em 2em 3em 2em;

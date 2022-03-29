@@ -20,6 +20,10 @@ function Form({ handleSubmit }) {
         <label htmlFor="tel">Telefone: </label>
         <input type="tel" id="tem" name="user_phone" />
       </div>
+      <div className={styles.input}>
+        <label htmlFor="escola">Escola: </label>
+        <input type="text" id="escola" name="user_school" />
+      </div>
       <div className={styles.radio}>
         <p>Você é:</p>
         <input type="radio" id="gestora" name="tipo" value="Gestora" />
