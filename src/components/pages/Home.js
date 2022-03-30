@@ -26,12 +26,12 @@ function Home() {
 
   function handleLeftClick(e) {
     e.preventDefault();
-    carousel.current.scrollLeft -= carousel.current.offsetWidth / 2;
+    carousel.current.scrollLeft -= 1.04 * carousel.current.offsetWidth;
   }
 
   function handleRightClick(e) {
     e.preventDefault();
-    carousel.current.scrollLeft += carousel.current.offsetWidth / 2;
+    carousel.current.scrollLeft += 1.04 * carousel.current.offsetWidth;
   }
 
   return (
@@ -57,17 +57,46 @@ function Home() {
           Desperta o interesse pela produção oral, escrita e{" "}
           <mark>ARTíSTICA</mark>.
           <br />
-          <br />
           Incentiva o hábito da <mark>LEITURA</mark>.
-          <br />
           <br />
           Desenvolve autonomia, aprendizagem <mark>CRIATIVA</mark> e
           responsabilidade social.
           <br />
+          <mark>DESAFIA</mark> o aluno a explicar suas preconcepções.
+        </SquareText>
+        <SquareText title="PARA OS EDUCADORES..." photo={carousel1}>
+          Desperta o interesse pela produção oral, escrita e{" "}
+          <mark>ARTíSTICA</mark>.
+          <br />
+          Incentiva o hábito da <mark>LEITURA</mark>.
+          <br />
+          Desenvolve autonomia, aprendizagem <mark>CRIATIVA</mark> e
+          responsabilidade social.
           <br />
           <mark>DESAFIA</mark> o aluno a explicar suas preconcepções.
         </SquareText>
-        <SquareText title="AQUI VAI UM TÍTULO BONITINHO" photo={carousel1} />
+        <SquareText title="PARA A ESCOLA..." photo={carousel1}>
+          Desperta o interesse pela produção oral, escrita e{" "}
+          <mark>ARTíSTICA</mark>.
+          <br />
+          Incentiva o hábito da <mark>LEITURA</mark>.
+          <br />
+          Desenvolve autonomia, aprendizagem <mark>CRIATIVA</mark> e
+          responsabilidade social.
+          <br />
+          <mark>DESAFIA</mark> o aluno a explicar suas preconcepções.
+        </SquareText>
+        <SquareText title="E PARA OS FAMILIARES..." photo={carousel1}>
+          Desperta o interesse pela produção oral, escrita e{" "}
+          <mark>ARTíSTICA</mark>.
+          <br />
+          Incentiva o hábito da <mark>LEITURA</mark>.
+          <br />
+          Desenvolve autonomia, aprendizagem <mark>CRIATIVA</mark> e
+          responsabilidade social.
+          <br />
+          <mark>DESAFIA</mark> o aluno a explicar suas preconcepções.
+        </SquareText>
       </div>
       <p className={styles.buttons}>
         <Button to="/sobreoprojeto" text="Sobre o projeto" />

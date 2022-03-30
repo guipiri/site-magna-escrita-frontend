@@ -8,17 +8,7 @@
 }
 
 body {
-  padding-top: 57px;
+  padding-top: 119px;
   position: relative;
-}
-
-@media (max-width: 459.5px) {
-  body {
-    padding-top: 92px;
-  }
-}
-@media (max-width: 376px) {
-  body {
-    padding-top: 105px;
-  }
+  box-sizing: border-box;
 }
