@@ -8,13 +8,13 @@ function Nuvem({ text, title, img1, img2, img3 }) {
       <h1>{title}</h1>
       <div className={styles.text}>
         <p>{text}</p>
+        <img className={styles.nuvemimg} src={nuvem} alt="nuvem" />
         <div className={styles.imgs}>
           <img src={img1} alt="imagens do projeto" />
           <img src={img2} alt="imagens do projeto" />
           <img src={img3} alt="imagens do projeto" />
         </div>
       </div>
-      <img className={styles.nuvemimg} src={nuvem} alt="nuvem" />
     </div>
   );
 }

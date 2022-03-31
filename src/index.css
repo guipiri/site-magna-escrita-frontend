@@ -5,10 +5,12 @@
   font-family: "Satisfy", cursive;
   font-family: "Permanent Marker", cursive; */
   color: blueviolet;
+  box-sizing: border-box;
+
 }
 
 body {
   padding-top: 119px;
   position: relative;
   box-sizing: border-box;
-}
+  }
