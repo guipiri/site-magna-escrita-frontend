@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 
 function PqAplicar({ img, titulo, children, left }) {
   useEffect(() => {
-    Aos.init({ duration: 1000 });
+    Aos.init({ duration: 2000 });
   }, []);
 
   return (
@@ -17,7 +17,7 @@ function PqAplicar({ img, titulo, children, left }) {
         <h1 data-aos="fade-right">{titulo}</h1>
         <p data-aos="fade-up">{children}</p>
       </div>
-      {left && <img src={img} alt="desenhos de criança" />}
+      {left && <img data-aos="fade-left" src={img} alt="desenhos de criança" />}
     </div>
   );
 }

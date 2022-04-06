@@ -1,5 +1,5 @@
 .button {
-  background-color: #ffc95c;
+  background-color: var(--cor-salmao-principal);
   border-radius: 5px;
   font-size: 1.1em;
   padding: 0.5em;
@@ -8,6 +8,8 @@
   margin: 1em 0.5em;
   transition: 0.2s;
   text-align: center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.221);
+
 }
 
 .button:hover {

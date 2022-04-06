@@ -15,6 +15,7 @@ body {
   position: relative;
   box-sizing: border-box;
   --cor-roxo-principal:rgb(224, 201, 245);
+  --cor-salmao-principal: rgba(255, 211, 195, 0.753);
   }
 
   

@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import banner from "../../img/banner.jpg";
 import styles from "./Home.module.css";
 import carousel1 from "../../img/carousel1.jpg";
@@ -12,8 +12,14 @@ import Button from "../layout/Button";
 import GoToTop from "../gototop/GoToTop";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
 import PqAplicar from "../layout/PqAplicar";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Home() {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   const carousel = useRef(null);
   const photos = [
     <SquarePhoto key="carousel1" photo={carousel1} />,
@@ -36,11 +42,13 @@ function Home() {
 
   return (
     <>
-      <div className={styles.home}>
+      <div data-aos="fade-right" className={styles.home}>
         <img src={banner} alt="banner principal do site" />
       </div>
-      <h1>O projeto Magníficos Autores transforma seus alunos!</h1>
-      <div className={styles.carousel} ref={carousel}>
+      <h1 data-aos="fade-up">
+        O projeto Magníficos Autores transforma seus alunos!
+      </h1>
+      <div data-aos="fade-down" className={styles.carousel} ref={carousel}>
         {photos.map((photo) => photo)}
       </div>
       <div className={styles.arrows}>

@@ -5,6 +5,7 @@
   margin-top: 50px;
   padding: 0 0 3em 3em;
   position: relative;
+  overflow: hidden;
   }
 
 .pqaplicar .content {
@@ -40,6 +41,7 @@
    max-width: 570px;
    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.221);
    border-radius: 5px;
+   overflow: hidden;
  }
 
  .pqaplicarleft {
@@ -64,7 +66,7 @@
 
   .pqaplicar .content h1,
   .pqaplicar .content p {
-    padding: 30 px 0 0 0;
+    padding: 30px 0 0 0;
   }  
 
   .pqaplicar .content {
