@@ -11,8 +11,7 @@ import SquarePhoto from "../layout/SquarePhoto";
 import Button from "../layout/Button";
 import GoToTop from "../gototop/GoToTop";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
-import PqAplicarRight from "../layout/PqAplicarRight";
-import PqAplicarLeft from "../layout/PqAplicarLeft";
+import PqAplicar from "../layout/PqAplicar";
 
 function Home() {
   const carousel = useRef(null);
@@ -54,8 +53,20 @@ function Home() {
       </div>
       <h1>Por que aplicar o projeto Magna Escrita na sua escola?</h1>
       <div className={styles.pqaplicar}>
-        <PqAplicarRight />
-        <PqAplicarLeft />
+        <PqAplicar titulo="PARA OS ALUNOS..." img={carousel1}>
+          Desperta o interesse pela produção oral, escrita e
+          <mark>ARTíSTICA</mark>.<br />
+          Incentiva o hábito da <mark>LEITURA</mark>.<br />
+          Desenvolve autonomia, aprendizagem <mark>CRIATIVA</mark> e
+          responsabilidade social.
+        </PqAplicar>
+        <PqAplicar titulo="PARA OS ALUNOS..." img={carousel1} left={true}>
+          Desperta o interesse pela produção oral, escrita e
+          <mark>ARTíSTICA</mark>.<br />
+          Incentiva o hábito da <mark>LEITURA</mark>.<br />
+          Desenvolve autonomia, aprendizagem <mark>CRIATIVA</mark> e
+          responsabilidade social.
+        </PqAplicar>
       </div>
       <p className={styles.buttons}>
         <Button to="/sobreoprojeto" text="Sobre o projeto" />

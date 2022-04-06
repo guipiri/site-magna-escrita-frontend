@@ -4,12 +4,12 @@
   margin-left: 5em;
   margin-top: 50px;
   padding: 0 0 3em 3em;
+  position: relative;
   }
 
 .pqaplicar .content {
   width: 50%;
-  padding-right: 50px;
-  
+  padding-right: 50px;  
 }
 
 .pqaplicar .content h1 {
@@ -31,12 +31,15 @@
   position: absolute;
   left: 0;
   width: 100%;
+  top: 0;
 }
  .pqaplicar img {
    width: 50%;
    height: fit-content;
    z-index: 1;
    max-width: 570px;
+   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.221);
+   border-radius: 5px;
  }
 
  .pqaplicarleft {
@@ -47,3 +50,33 @@
    display: flex;
    justify-content: space-between;
  }
+
+ @media (max-width: 1000px) {
+   .pqaplicar {
+     flex-direction: column;
+     margin-left: 0;
+   }
+   .pqaplicar img {
+    width: 100%;
+    height: fit-content;
+    z-index: 1;
+  }
+
+  .pqaplicar .content h1,
+  .pqaplicar .content p {
+    padding: 30 px 0 0 0;
+  }  
+
+  .pqaplicar .content {
+    width: auto;
+    padding-right: 10px;
+  }
+
+  .pqaplicarleft {
+    flex-direction: column-reverse;
+    padding: 0 0 3em 3em;
+    margin-right: 0;
+  }
+
+
+  }
