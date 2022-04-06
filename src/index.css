@@ -4,6 +4,7 @@
   /* font-family: "Caveat", cursive;
   font-family: "Satisfy", cursive;
   font-family: "Permanent Marker", cursive; */
+  /* font-family: 'Grape Nuts', cursive; */
   color: blueviolet;
   box-sizing: border-box;
 
@@ -13,4 +14,7 @@ body {
   padding-top: 119px;
   position: relative;
   box-sizing: border-box;
+  --cor-roxo-principal:rgb(224, 201, 245);
   }
+
+  

@@ -1,5 +1,5 @@
 .footer {
-  background-color: rgb(224, 201, 245);
+  background-color: var(--cor-roxo-principal);
   /* position: relative; */
   /* bottom: 0; */
   width: 100%;
