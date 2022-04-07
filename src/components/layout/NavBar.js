@@ -20,7 +20,10 @@ function NavBar() {
       <Link onClick={() => setActive(false)} to="/">
         <img src={logo} alt="logo" />
       </Link>
-      <div onClick={() => setActive(false)} className={classe()}>
+      <div
+        onClick={() => setActive(false)}
+        className={`${classe()} ${styles.button}`}
+      >
         <Link to="/magna">A Magna</Link>
         <Link to="/sobreoprojeto">Sobre o projeto</Link>
         <Link to="/contato">Contato</Link>
