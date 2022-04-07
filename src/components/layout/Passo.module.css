@@ -1,0 +1,51 @@
+.passo {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  flex-wrap: wrap-reverse;
+  flex: none;
+  width: 100%;
+}
+
+.passo .content span {
+  background-color: var(--cor-salmao-principal);
+  line-height: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.passo img {
+  width: 40%;
+  max-width: 500px;
+  min-width: 240px;
+}
+
+.content h1 {
+  padding: 0 0 15px 0;
+  text-align: start;
+}
+
+.content p {
+  color: grey;
+  font-size: 20px;
+  padding-bottom: 50px;
+  font-family: 'Chilanka', cursive;
+}
+
+.content {
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 500px;
+    min-width: 240px
+}
