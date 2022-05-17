@@ -9,6 +9,12 @@ function SquareText({ title, children, photo }) {
         <div className={styles.square2}>
           <p>{children}</p>
           <img src={photo} alt="imagens da noite de autógrafos" />
+          <p>{children}</p>
+          <img src={photo} alt="imagens da noite de autógrafos" />
+          <p>{children}</p>
+          <img src={photo} alt="imagens da noite de autógrafos" />
+          <p>{children}</p>
+          <img src={photo} alt="imagens da noite de autógrafos" />
         </div>
       </div>
     </div>

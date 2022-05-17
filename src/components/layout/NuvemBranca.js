@@ -1,25 +1,34 @@
 import React from "react";
 import styles from "./NuvemBranca.module.css";
 import nuvembranca from "../../img/NUVEM_1.jpg";
-import SquarePhoto from "../layout/SquarePhoto";
-import carousel1 from "../../img/carousel1.jpg";
+import img from "../../img/carousel6.jpg";
+import PqAplicar from "../layout/PqAplicar";
+import Button from "./Button";
 
 function NuvemBranca() {
   return (
-    <div className={styles.nuvembranca}>
-      <img className={styles.img} src={nuvembranca} alt="Nuvem branca" />
-      <div className={styles.squarephoto}>
-        <div className={styles.text}>
-          <h1>A Magna</h1>
-          <p>
-            Muito asubd aisudas m,dajndka msndkasjnd ka msasokn as.d.ask
-            jndlaksj damsdlkjas b, msbals bd,msbdlasjkbda,smjdbasldj
-            has,dmbasdmabskja bsd,ma sbdkjsbdajdb asldjbas,djbasd.basdkasg b,dj
-            hbasldbhas,dhjsab u{" "}
-          </p>
-        </div>
-        <SquarePhoto photo={carousel1} />
-      </div>
+    <div className={styles.magna}>
+      <PqAplicar img={img} titulo="A Magna" left={true}>
+        Tem atuado em projetos pedagógicos como uma fornecedora de soluções de
+        impressão. A atuação próxima a esse segmento nos levou a ampliar nossa
+        missão,visando focar de forma sistematizada para atender novas demandas
+        de cada projeto pedagógico.
+      </PqAplicar>
+      <PqAplicar img={img} titulo=". . . " left={false}>
+        A atuação próxima a esse segmento nos levou a ampliar nossa
+        missão,visando focar de forma sistematizada para atender novas demandas
+        de cada projeto pedagógico.
+      </PqAplicar>
+      <PqAplicar img={img} titulo=". . . " left={true}>
+        Assim, passamos a investir ainda mais – e de forma criativa – num desejo
+        que acreditamos ser de todos os profissionais envolvidos na formação de
+        cidadãos críticos, atuantes e protagonistas de sua própria história de
+        vida: o projeto de livros personalizados.
+      </PqAplicar>
+      <p className={styles.buttons}>
+        <Button to="/sobreoprojeto" text="Sobre o projeto" />
+        <Button to="/contato" text="Inscreva sua escola" />
+      </p>
     </div>
   );
 }
