@@ -7,6 +7,9 @@ import carousel3 from "../../img/carousel3.jpg";
 import carousel4 from "../../img/carousel4.jpg";
 import carousel5 from "../../img/carousel5.jpg";
 import carousel6 from "../../img/carousel6.jpg";
+import ParaOsEduc from "../../img/livros-pedagogicos.jpg";
+import ParaOsPais from "../../img/familiares-lendo-livro-pedagogico.jpg";
+import ParaOsAlunos from "../../img/alunos-escrevendo-livro-pedagogico.jpg";
 import SquarePhoto from "../layout/SquarePhoto";
 import Button from "../layout/Button";
 import GoToTop from "../gototop/GoToTop";
@@ -61,19 +64,29 @@ function Home() {
       </div>
       <h1>Por que aplicar o projeto Magna Escrita na sua escola?</h1>
       <div className={styles.pqaplicar}>
-        <PqAplicar titulo="PARA OS ALUNOS..." img={carousel1}>
-          Desperta o interesse pela produção oral, escrita e
+        <PqAplicar titulo="PARA OS ALUNOS..." img={ParaOsAlunos}>
+          Desperta o interesse pela produção oral, escrita e{" "}
           <mark>ARTíSTICA</mark>.<br />
+          <br />
           Incentiva o hábito da <mark>LEITURA</mark>.<br />
+          <br />
           Desenvolve autonomia, aprendizagem <mark>CRIATIVA</mark> e
           responsabilidade social.
         </PqAplicar>
-        <PqAplicar titulo="PARA OS ALUNOS..." img={carousel1} left={true}>
-          Desperta o interesse pela produção oral, escrita e
-          <mark>ARTíSTICA</mark>.<br />
-          Incentiva o hábito da <mark>LEITURA</mark>.<br />
-          Desenvolve autonomia, aprendizagem <mark>CRIATIVA</mark> e
-          responsabilidade social.
+        <PqAplicar titulo="PARA OS EDUCADORES..." img={ParaOsEduc} left={true}>
+          Contribui com os educadores no trabalho de <mark>MOTIVAR</mark> na
+          criança e no jovem o gosto pela leitura e escrita... <br />
+          <br />
+          ...bem como estimular a imaginação de forma competente e criativa.
+          <br />
+        </PqAplicar>
+        <PqAplicar titulo="PARA OS FAMILIARES..." img={ParaOsPais}>
+          É um diferencial de grande valor histórico para os familiares guardar
+          as <mark>LEMBRANÇAS</mark> de uma época tão importante... <br />
+          <br />
+          ...além de aproximar os pais das atividades escolares, desde a criação
+          da história até o dia de autógrafos.
+          <br />
         </PqAplicar>
       </div>
       <p className={styles.buttons}>
