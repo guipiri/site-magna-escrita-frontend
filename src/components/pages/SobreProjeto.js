@@ -3,7 +3,7 @@ import styles from "./SobreProjeto.module.css";
 import Button from "../layout/Button";
 import GoToTop from "../gototop/GoToTop";
 import Passo from "../layout/Passo";
-import desenho1 from "../../img/desenho_gato.jpg";
+import desenho1 from "../../img/desenho_futebol.jpg";
 import { AiOutlineArrowRight, AiOutlineArrowLeft } from "react-icons/ai";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -14,7 +14,6 @@ import Etapa2 from "../../img/icone-etapa-2-crianca-escreve-livro.png";
 import Etapa3 from "../../img/icone-etapa-3-imprimi-livro.png";
 import Etapa4 from "../../img/icone-etapa-4-dia-de-autografos.png";
 import Desenho from "../../img/desenho.jpg";
-import Desenho2 from "../../img/desenho_gato.jpg";
 
 function SobreProjeto() {
   useEffect(() => {
@@ -73,7 +72,7 @@ function SobreProjeto() {
         </div>
         <GoToTop />
       </div>
-      <PqAplicar img={Desenho2} titulo="RESPONSABILIDADE E HUMANIZAÇÃO">
+      <PqAplicar img={desenho1} titulo="RESPONSABILIDADE E HUMANIZAÇÃO">
         O enredo da história, os personagens, o cenário e as ilustrações serão
         criados pelo próprio aluno, sob orientação do educador e com base no
         projeto escolhido.

@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./NuvemBranca.module.css";
-import nuvembranca from "../../img/NUVEM_1.jpg";
 import img from "../../img/carousel6.jpg";
 import PqAplicar from "../layout/PqAplicar";
 import Button from "./Button";
