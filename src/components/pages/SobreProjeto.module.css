@@ -6,7 +6,7 @@
 }
 
 .sobre h1 {
-  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .passoapasso {
@@ -22,6 +22,18 @@
 }
 .passoapasso::-webkit-scrollbar {
   display: none;
+}
+
+@media (max-width: 496px) {
+  .passoapasso {
+    align-items: start;
+  }
+
+  .relative {
+    position: relative;
+    top: 35px;
+    padding: 0;
+  }
 }
 
 .buttons {

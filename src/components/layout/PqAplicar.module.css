@@ -16,12 +16,14 @@
 .pqaplicar .content h1 {
   padding: 100px 0 0 15%;
   text-align: start;
-  font-family: 'Kranky', cursive;
+  /* font-family: 'Kranky', cursive; */
+  font-family: 'Montserrat';
+
 }
 .pqaplicar .content p {
   padding: 50px 0 0 15%;
   text-align: start;
-  font-family: 'Chilanka', cursive;
+  /* font-family: 'Chilanka', cursive; */
 
 }
 

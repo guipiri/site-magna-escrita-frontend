@@ -2,9 +2,31 @@
   display: flex;
   justify-content: center;
   padding: 15px;
-  flex-wrap: wrap-reverse;
+  padding-bottom: 0;
+  flex-wrap: wrap;
   flex: none;
   width: 100%;
+}
+
+/* @media (max-width: 520px) {
+  .passo {
+    justify-content: end;
+}
+  .content {
+    padding-left: 0
+  }
+
+  .content p {
+    padding: 0;
+  }
+} */
+@media (max-width: 496px) {
+  .passo img {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    min-width: 70px;
+  }
 }
 
 .passo .content span {
@@ -24,9 +46,9 @@
 }
 
 .passo img {
-  width: 25%;
+  width: 30%;
   max-width: 240px;
-  min-width: 240px;
+  height: fit-content;
 }
 
 .content h1 {
@@ -37,8 +59,8 @@
 .content p {
   color: grey;
   font-size: 20px;
-  padding-bottom: 50px;
-  font-family: 'Chilanka', cursive;
+  padding-bottom: 10px;
+  /* font-family: 'Chilanka', cursive; */
 }
 
 .content {

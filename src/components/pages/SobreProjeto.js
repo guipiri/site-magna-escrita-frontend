@@ -23,12 +23,12 @@ function SobreProjeto() {
 
   function handleLeftClick(e) {
     e.preventDefault();
-    carousel.current.scrollLeft -= 1.03 * carousel.current.offsetWidth;
+    carousel.current.scrollLeft -= 1.01 * carousel.current.offsetWidth;
   }
 
   function handleRightClick(e) {
     e.preventDefault();
-    carousel.current.scrollLeft += 1.03 * carousel.current.offsetWidth;
+    carousel.current.scrollLeft += 1.01 * carousel.current.offsetWidth;
   }
   const carousel = useRef(null);
   const passos = [
@@ -57,7 +57,9 @@ function SobreProjeto() {
   return (
     <>
       <div className={styles.sobre}>
-        <h1 data-aos="fade-right">Como funciona o projeto?</h1>
+        <h1 className={styles.relative} data-aos="fade-right">
+          Como funciona o projeto?
+        </h1>
         <div className={styles.passoapasso} ref={carousel}>
           {passos.map((passo) => passo)}
         </div>
