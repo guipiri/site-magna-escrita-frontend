@@ -45,9 +45,11 @@
   background-color: rgb(228, 228, 228);
 }
 
-h1 {
+.tits {
   text-align: center;
   padding: 1em;
+  color:rgb(85, 85, 85);
+  font-weight: bold;
 }
 
 .buttons {

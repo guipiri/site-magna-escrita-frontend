@@ -48,8 +48,8 @@ function Home() {
       <div data-aos="fade-right" className={styles.home}>
         <img src={banner} alt="banner principal do site" />
       </div>
-      <h1 data-aos="fade-up">
-        O projeto Magníficos Autores transforma seus alunos!
+      <h1 className={styles.tits} data-aos="fade-up">
+        Magna Escrita transforma seus alunos em magníficos autores!
       </h1>
       <div data-aos="fade-down" className={styles.carousel} ref={carousel}>
         {photos.map((photo) => photo)}
@@ -62,9 +62,11 @@ function Home() {
           <AiOutlineArrowRight />
         </button>
       </div>
-      <h1>Por que aplicar o projeto Magna Escrita na sua escola?</h1>
+      <h1 className={styles.tits}>
+        Por que aplicar o projeto Magna Escrita na sua escola?
+      </h1>
       <div className={styles.pqaplicar}>
-        <PqAplicar titulo="PARA OS ALUNOS..." img={ParaOsAlunos}>
+        <PqAplicar titulo="Para os alunos..." img={ParaOsAlunos}>
           Desperta o interesse pela produção oral, escrita e{" "}
           <mark>ARTíSTICA</mark>.<br />
           <br />
@@ -73,14 +75,14 @@ function Home() {
           Desenvolve autonomia, aprendizagem <mark>CRIATIVA</mark> e
           responsabilidade social.
         </PqAplicar>
-        <PqAplicar titulo="PARA OS EDUCADORES..." img={ParaOsEduc} left={true}>
+        <PqAplicar titulo="Para os educadores..." img={ParaOsEduc} left={true}>
           Contribui com os educadores no trabalho de <mark>MOTIVAR</mark> na
           criança e no jovem o gosto pela leitura e escrita... <br />
           <br />
           ...bem como estimular a imaginação de forma competente e criativa.
           <br />
         </PqAplicar>
-        <PqAplicar titulo="PARA OS FAMILIARES..." img={ParaOsPais}>
+        <PqAplicar titulo="Para os familiares..." img={ParaOsPais}>
           É um diferencial de grande valor histórico para os familiares guardar
           as <mark>LEMBRANÇAS</mark> de uma época tão importante... <br />
           <br />
